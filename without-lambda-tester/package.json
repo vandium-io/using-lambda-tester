@@ -1,0 +1,15 @@
+{
+  "name": "without-lambda-tester",
+  "version": "1.0.0",
+  "description": "Testing without lambda-tester",
+  "main": "index.js",
+  "scripts": {
+      "test": "./node_modules/.bin/mocha --recursive"
+  },
+  "author": "richardhyatt",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
